@@ -1,0 +1,45 @@
+body{
+    background: #140e1d;
+    color: #ffffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+/*table Formatting*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+table tr th{
+    background: #411267;
+    font-size: 20px;
+    padding: 5px;
+}
+
+table tr th, table tr td{
+    padding: 3px;
+    border: 0.2px #280b40 solid;
+}
+
+tfoot tr th,
+tfoot tr td{
+    background-color:#280b40;
+    font-size: 17px;
+    font-weight: Bold;
+}
+
+tfoot tr th{
+    padding-right: 10px;
+    color: #c6a7df;
+    text-align: right;
+}
+
+/*custom*/
+.income{
+    color: #9cf3e0;
+}
+.Expense{
+    color: #f799ac;
+}
